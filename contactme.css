@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.background-wrap {
+        position: fixed;
+        z-index: -1000;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+      }
+      
+#video-bg-elem {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 100%;
+        min-width: 100%;
+      }
+.content {
+        position: absolute;
+        width: 100%;
+        min-height: 100%;
+        z-index: 1000;
+        background-color: rgba(0,0,0,0.5);
+      }
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+
+.nav{
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    border-radius: 3px;
+    color: white;
+    padding:10px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+  background: rgba(255,255,255,0.4);
+  color: red;
+  transition: 0.6s;
+}
+
+.topnav a.active {
+  background-color: transparent;
+  color: #ff4d4d;
+}
+
+.form{
+	margin-left: 450px;
+}
+
+.form1{
+	color: white;
+}
+
+input{
+	opacity: 0.2;
+	padding:8px;
+	display:block;
+	border:none;
+	font-size: 20px;
+	border-radius: 10px;
+}
+input:focus{
+	border: solid;
+	border-color: #16c4ff;
+	border-radius: 10px;
+}
+
+td{
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 20px;
+	font-size: 20px;
+}
+
+#slist{
+	opacity: 0.4;
+	border-radius: 10px;
+}
+
+#addressTA{
+	opacity: 0.4;
+	border-radius: 10px;
+}
+#addressTA:focus{
+	border: solid;
+	opacity: 0.4;
+	border-color: #16c4ff;
+	border-radius: 10px;
+}
+
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+#body {
+   height: 150px; 
+   background: transparent;  
+   text-align: center;
+}
+
+#footer {
+  background: #000000;
+  opacity: 0.8;
+  position: relative;
+  bottom: 0;
+  width:100%;
+  height:20px; 
+  clear: both;  /* Height of the footer */
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
